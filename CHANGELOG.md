@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.0](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/compare/v4.0.13...v4.1.0) (2021-07-15)
+
+
+### Features
+
+* **server:** add content-encoding support ([c51cfad](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/c51cfad5eff2c2344872f372b6b55e1c279a5a12))
+
+
+### Bug Fixes
+
+* **package:** move `pino-pretty` to production dependency list ([#335](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/issues/335)) ([17c80db](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/17c80dbad37b4bce6a1ea87fa89ceb6f1d116ee0))
+* **server:** ensure doc route also inherits plugins ([a8fabb5](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/a8fabb59681eff8d92c40a6e03f9a01fa7d0093e))
+* **server:** revert Referrer-Policy directives to "no-referrer" only ([f0e6adb](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/f0e6adb2f92c5226961bd8a707772ff5f2837965))
+
+
+### Improvements
+
+* **routes/healthcheck:** move `Accept` header handling back to hook ([7ec00a6](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/7ec00a6c8f725a68b482a85c52a17ce5a3ee05af))
+* **routes/redirect:** move `Accept` header handling back into hook ([97ab3b8](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/97ab3b8edf895a34fd4701bffaf94a2ea94d427a))
+* **routes:** do not treat routes as plugins ([20b93bb](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/20b93bb7f97e4f8a597168b4dbafabd0e9ebcb36))
+
+
+### Miscellaneous
+
+* change mentions of "MIME type" to "media type" ([#327](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/issues/327)) ([0c2f166](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/0c2f1663ade6c3db865630fd7cf11ea7177523d9))
+* **env.template:** use double quotes ([#334](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/issues/334)) ([79f7b71](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/79f7b71399f5685e4577678260a54ff6157180fa))
+* **server:** sort plugin registering alphabetically ascending ([14390c9](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/14390c9395ff5a09a56ee6f4d90461110422d4e1))
+* **server:** update encapsulation comment ([783f640](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/783f640fbd4684ee0d2898b1878ca5734967e362))
+* **test_resources:** add Insomnia REST client test requests ([fee4b9e](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/fee4b9e28bafe61559798a09c5059ef252d2d8fe))
+* update plugin metadata for server dependency graph ([1087dba](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/commit/1087dbaecd6ce461bfc686fd3ac6386f5f05da8a))
+
 ### [4.0.13](https://www.github.com/Fdawgs/ydh-sider-obfuscation-service/compare/v4.0.12...v4.0.13) (2021-07-12)
 
 
